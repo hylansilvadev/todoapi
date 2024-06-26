@@ -1,0 +1,157 @@
+# Diretórios e arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Arquivos de build
+target/
+build/
+
+# Configurações de IDEs
+*.iml
+.idea/
+*.ipr
+*.iws
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Arquivos de dependências
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+!mvn/wrapper/maven-wrapper.jar
+.mvn/
+node_modules/
+
+# Arquivos de compilação
+*.class
+*.war
+*.ear
+
+# Arquivos de configuração local
+*.env
+*.local
+*.profile
+.envrc
+.env.*
+.env.*
+.env.local
+
+# Arquivos de propriedades
+*.properties
+*.yml
+*.yaml
+
+# Arquivos temporários e de cache
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Arquivos gerados por ferramentas
+coverage/
+bin/
+.tmp/
+*.pid
+*.seed
+dist/
+build/
+out/
+coverage/
+.jest/
+.next/
+.ember-cli/
+coverage/
+dist/
+tmp/
+build/
+
+# Arquivos específicos do Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos específicos do Gradle
+.gradle/
+build/
+
+# Arquivos específicos do SonarQube
+.sonar/
+.report-task.txt
+
+# Arquivos específicos do IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Arquivos específicos do VS Code
+.vscode/
+
+# Arquivos de metadados do Eclipse
+.project
+.classpath
+.c9/
+.settings/
+.factorypath
+
+# Arquivos do sistema operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos de bancos de dados em memória
+h2*.log
+*.db
+*.h2.db
+*.mv.db
+
+# Arquivos de exportação do projeto
+*.zip
+*.tar.gz
+*.tar
+*.tgz
+*.rar
+
+# Arquivos de configuração do Docker
+docker-compose.yml
+.dockerignore
+
+# Arquivos de cache do Yarn e npm
+.yarn/*
+.pnp.*
+.pnp.js
+node_modules/
+__sapper__/export/
+__sapper__/
+
+# Arquivos de cache do Pipenv
+Pipfile.lock
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos de cache do Rust/Cargo
+target/
+Cargo.lock
+
+# Arquivos de cache do Swift
+.build/
+.swiftpm/xcode/
+Package.resolved
+.swiftpm/
+.build/
+.build.xcresult
+.idea/
+Package.resolved
+
+# Arquivos de cache do Go
+bin/
+pkg/
